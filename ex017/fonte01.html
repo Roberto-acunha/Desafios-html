@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Fontes em css</title>
+    <style>
+       @import url("fineprint.css") print;
+        body {
+       font-family: 'work sans', Arial, Helvetica, sans-serif; /* para ativar 'work sans', links importados, temos que acrescentar em style o endereço @import url("fineprint.css") print; por exemplo*/
+       font-size: 17px;/* px, em a letra ficam em tamanhos diferentes*/
+
+       /* medidas absolutas
+       medidas .   */ 
+        }
+    
+        h1 {
+            font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+            font-size: 3em;
+            font-weight:bolder;
+            /* fonte- weighter fica negrito, bold, bolder, e outras. também pode ser numerica:100 ate 900. as letras das palavras ficam mais magrinhas ou mais gordinhas, peso e estilo*/
+            font-style: oblique; /* tambem pode ser usado as teclas crtl + espaço; após os  dois pontos para saber as possibilidades.
+           *font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+            *font-size: 3em;
+            *font-weight:bolder;
+            /* fonte- weighter fica negrito, bold, bolder, e outras. também pode ser numerica:100 ate 900. as letras das palavras ficam mais magrinhas ou mais gordinhas, peso e estilo.
+             tambem podemo usar as SHORT HANDS que é uma maneira simplificada de escrever as 4 fontes mai* ex:font: 'gil games' bolder 3em  usadas, mais tem que colocar neta ordem:
+       
+             *font-style-> font-wheigt-> font-size-> font-family*/
+        
+            
+            
+           
+        }
+        h2 {  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+        font-size: 2em;
+        font-weight:bolder ;
+        font-style: oblique;
+
+        }
+
+    </style>
+</head>
+
+<body>
+        <h1>Trabalhando com fontes</h1>
+   <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Qui obcaecati at cum deleniti,
+         ea magni nemo facere! Explicabo
+        pariatur, quos sapiente eaque voluptate dolor consequuntur, nesciunt, iste nulla vitae consecte
+   </p> <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. 
+    Tempora dolorum debitis architecto, totam soluta id. Odit deleniti quasi minima quia soluta doloribus
+     possimus, dignissimos cum, laborum natus vero officia corporis!</p>
+    <h2>Subtitulo do exercicio-fontes</h2>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Perspiciatis, nostrum. Sint nihil consequuntur vel beatae, natus harum et dignissimos error ipsum odio. Rerum aliquam inventore praesentium pariatur dolores consectetur aut?</p>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Illo omnis sequi harum, magnam temporibus cum placeat inventore, voluptatibus id a ipsa deserunt debitis deleniti explicabo labore. Ut similique molestias facere?</p>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Reprehenderit, laborum. 
+        Dicta cupiditate dolore iure totam doloribus ut repellendus animi? 
+        Reprehenderit a nulla autem nostrum omnis rem deleniti, aliquid quaerat blanditiis.</p>
+</body>
+</html>
